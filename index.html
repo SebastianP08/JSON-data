@@ -89,6 +89,53 @@
         </section>
     </div>
 
+    <div class="caja-maleta">
+        <h1 id="miMaleta">Maleta</h1>
+        <h2>Coquita de almuerzo:</h2>
+        <p id="almuerzo">Coquita de almuerzo</p>
+        <div id="color">
+            Negro
+        </div>
+        <div id="size">
+            grande
+        </div>
+    
+    </div>
+    <script>
+        let maletaobj = {
+            "type" : "Maleta de trabajo",
+            "color" : "brown",
+            "size" : "grande",
+            "material" : "Imitación de piel (eco cuero)",
+            "marca" : "Oracle",
+            "contenido de bolsillos" : ["Cuaderno", "Carpeta", "Sombrilla", "Cargador", "Almuerzo"],
+            "Almuerzo" : 
+                {
+                    "Coquita" : ["Arroz", "Huevo revuelto", "Papas criolla" ],
+                    "Bebida" : "Pony Malta"
+            },
+            "numero de bolsillos" : "7 bolsillos",
+            "numero de cremalleras" : "8 cremalleras",
+            "price": "$50000",
+            "proveedores": ["Oracle", "Totto"],}
+        
+        console.log(maletaobj);
+        document.getElementById("miMaleta").style.color = maletaobj.color;
+        if (maletaobj.size === "grande") {
+            document.getElementById("miMaleta").style.fontSize = "4rem";
+        } else if (maletaobj.size === "mediano") {
+            doument.getElementById("miMaleta").style.fontSize = "1rem";
+        } else if (maletaobj.size === "pequeño") {
+            document.getElementById("miMaleta").style.fontSize = "0.5rem";
+        }
+
+        document.getElementById("almuerzo").innerHTML = maletaobj.Almuerzo.Coquita.map(item  => {
+            return `<p> ${item}</p>`;
+        }).join('');
+        
+
+    </script>
+
     <script src="script.js"></script>
 </body>
 </html>
