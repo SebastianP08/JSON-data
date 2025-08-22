@@ -1,70 +1,84 @@
 {
-  "id": 1,
-  "firstName": "Sebastian",
-  "lastName": "Aguilar",
-  "maidenName": "David",
-  "age": 19,
-  "gender": "Male",
-  "email": "saguilarp@unbosque.edu.co",
-  "phone": "+81 965-431-3024",
-  "username": "emilys",
-  "password": "emilyspass",
-  "birthDate": "1996-5-30",
-  "image": "https://dummyjson.com/icon/emilys/128",
-  "bloodGroup": "O-",
-  "height": 193.24,
-  "weight": 63.16,
-  "eyeColor": "Green",
-  "hair": {
-    "color": "Brown",
-    "type": "Curly"
-  },
-  "ip": "42.48.100.32",
-  "address": {
-    "address": "626 Main Street",
-    "city": "Phoenix",
-    "state": "Mississippi",
-    "stateCode": "MS",
-    "postalCode": "29112",
-    "coordinates": {
-      "lat": -77.16213,
-      "lng": -92.084824
-    },
-    "country": "United States"
-  },
-  "macAddress": "47:fa:41:18:ec:eb",
-  "university": "University of Wisconsin--Madison",
-  "bank": {
-    "cardExpire": "03/26",
-    "cardNumber": "9289760655481815",
-    "cardType": "Elo",
-    "currency": "CNY",
-    "iban": "YPUXISOBI7TTHPK2BR3HAIXL"
-  },
-  "company": {
-    "department": "Engineering",
-    "name": "Dooley, Kozey and Cronin",
-    "title": "Sales Manager",
-    "address": {
-      "address": "263 Tenth Street",
-      "city": "San Francisco",
-      "state": "Wisconsin",
-      "stateCode": "WI",
-      "postalCode": "37657",
-      "coordinates": {
-        "lat": 71.814525,
-        "lng": -161.150263
-      },
-      "country": "United States"
+  "titulo": "Mirada Oscura",
+  "personajes": [
+    "Karen",
+    "Lyra",
+    "David",
+    "Jax",
+    "Robert"
+  ],
+  "sinopsis": "Karen, una chica que lidia con un acoso constante debido a su hermosa apariencia, pero ¿Que es real y que no acerca de su vida?",
+  "temporadas": [
+    {
+      "id": "t1",
+      "numero": 1,
+      "trama": "Karen, una chica que lidia con un acoso constante debido a su hermosa apariencia, pero ¿Que es real y que no acerca de su vida?",
+      "personajes": [
+        "Karen",
+        "Lyra",
+        "David",
+        "Jax",
+        "Robert"
+      ],
+      "capitulos": [
+        {
+          "id": "t1c1",
+          "titulo": "Un pozo sin fondo",
+          "duracion": "3 mins",
+          "trama": "Lidiando con el acoso constante, Karen huye de sus acosadores hasta una parada de bus, en donde descubrirá una verdad que alterará su realidad",
+          "escenas": [
+            {
+              "id": "t1c1s1",
+              "nombre": "Huyendo del restaurante",
+              "duracion": "1 mins",
+              "personajes": [
+                "Karen",
+                "Robert"
+              ],
+              "contexto": "Karen se encuentra en un restaurante, en el que, por las miradas de una viejo, esta decide ir al baño. para luego salir del restaurante con las palmas sudando, y sus ojos vigilando a todos",
+              "lugar": "restaurante, baño",
+              "resumen": ""
+            },
+            {
+              "id": "t1c1s2",
+              "nombre": "Huyendo del restaurante",
+              "duracion": "1 mins",
+              "personajes": [
+                "Karen"
+              ],
+              "contexto": "Karen al salir del restaurante, se siente perseguida por alguien, por lo que decide acelerar el paso y dirigirse a la parada de bus.",
+              "lugar": "Calle de la parada de bus",
+              "resumen": ""
+            },
+            {
+              "id": "t1c1s3",
+              "nombre": "Huyendo de sus perseguidores",
+              "duracion": "1 min",
+              "personajes": [
+                "Karen",
+                "Lyra",
+                "David",
+                "Jax",
+                "Robert"
+              ],
+              "contexto": "Después de llegar a la parada, Karen es acosada nuevamente por varias personas, un chico que le chifla, una chica que la mira con odio, otro chico que la mira de manera lasciva y un viejo que se sienta a su lado y se acerca cada vez más, todo esto para luego terminar en ella arrodilladla llorando, y todos a su alrededor desapareciendo convertidos en meras sombras.",
+              "lugar": "Parada de bus",
+              "resumen": ""
+            }
+          ],
+          "personajes": [
+            "Karen",
+            "Lyra",
+            "David",
+            "Jax",
+            "Robert"
+          ],
+          "locaciones": [
+            "Restaurante",
+            "parada de bus"
+          ]
+        }
+      ]
     }
-  },
-  "ein": "977-175",
-  "ssn": "900-590-289",
-  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36",
-  "crypto": {
-    "coin": "Bitcoin",
-    "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
-    "network": "Ethereum (ERC20)"
-  },
-  "role": "admin"
+  ]
 }
